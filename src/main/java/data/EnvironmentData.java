@@ -1,3 +1,5 @@
+package data;
+
 public enum EnvironmentData {
     BASEURI("https://api.tmsandbox.co.nz"),
     BASEPATH("/v1/Categories");

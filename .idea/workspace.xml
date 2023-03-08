@@ -7,23 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1408da88-cad1-475c-a8d3-4754d6a85f24" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EnvironmentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/categoryDetailsResponse/CategoryDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/categoryDetailsResponse/Fees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/categoryDetailsResponse/ListingFeeTier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/categoryDetailsResponse/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CategoryBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1408da88-cad1-475c-a8d3-4754d6a85f24" name="Changes" comment="Initial Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678100951482</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1678274924277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678274924278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +157,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
