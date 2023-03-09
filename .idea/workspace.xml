@@ -7,7 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1408da88-cad1-475c-a8d3-4754d6a85f24" name="Changes" comment="Initial Commit" />
+    <list default="true" id="1408da88-cad1-475c-a8d3-4754d6a85f24" name="Changes" comment="Added Allure Reporting">
+      <change afterPath="$PROJECT_DIR$/allure-results/categories.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CategoryBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CategoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,14 +47,22 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG./Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/testng.xml">
     <configuration name="CategoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjectNZ" />
@@ -108,8 +123,18 @@
     </configuration>
     <configuration name="/Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjectNZ" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,8 +151,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/testng.xml" />
-        <item itemvalue="TestNG.CategoryTest.CategoryDetailsTest" />
         <item itemvalue="TestNG.CategoryTest" />
+        <item itemvalue="TestNG.CategoryTest.CategoryDetailsTest" />
         <item itemvalue="TestNG.TestChk1.test3" />
         <item itemvalue="TestNG.Run As TestNG" />
       </list>
@@ -149,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678274924278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1678275261435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678275261435</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added Allure Reporting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Allure Reporting" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,10 +1,10 @@
 import categoryDetailsResponse.CategoryDetails;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
 
 public class CategoryBaseTest {
 
@@ -16,7 +16,6 @@ public class CategoryBaseTest {
     @BeforeClass
     public void setup() {
 
-        System.out.println("set");
         requestSpecification = RestUtils.createRequestSpecification();
         responseSpecification = RestUtils.createResponseSpecificationWithStatus200();
     }
@@ -24,10 +23,7 @@ public class CategoryBaseTest {
     @AfterClass
     public void afterTest() {
 
-        System.out.println("after");
-        System.out.println(RestAssured.basePath);
         RestUtils.resetBasePath();
         RestUtils.resetBaseURI();
-        System.out.println(RestAssured.basePath);
     }
 }
