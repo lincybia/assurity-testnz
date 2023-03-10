@@ -6,13 +6,13 @@ This Project is a RestAssured API Testing Framework which used RestAssured libra
 
 Rest Assured + Java + TestNG + Hamcrest Matchers +  Allure + Maven 
 
-Pre-Requisites
+### Pre-Requisites
 * IntelliJ or Eclipse
 * Java JDK-1.8 or higher
 * Apache Maven 3 or higher
 * Git Hub Profile
 
-Getting Started:
+### Getting Started:
 
 1. Launch the IntelliJ IDEA 2022.3.3 RC (Community Edition) and ensure GIT is integrated
 2. Ensure Maven is installed -> brew install maven in your terminal
@@ -27,14 +27,14 @@ Getting Started:
     2. Allure serve 
 7. Allure serve command generates the report and opens up in the active browser window. Always empty the allure-results folder in the project root before the test execution so that report is refreshed
 
-Project Details:
+### Project Details:
 
-Package - src/main/java has the below
+##### Package - src/main/java has the below
 1. All the POJO Classes for the response objects
 2. Test data enum file which has the BASE URI, BASE PATH
 3. Resources folder which has the categories.json file used for allure report categorization
 
-Packages - src/test/java has the below
+##### Packages - src/test/java has the below
 1. Steps folder which has test steps that includes the below
     1. API GET call
     2. Validation of the response for the below -> uses Hamcrest Matcher assertions
