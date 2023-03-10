@@ -7,13 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1408da88-cad1-475c-a8d3-4754d6a85f24" name="Changes" comment="Added Allure Reporting">
-      <change afterPath="$PROJECT_DIR$/allure-results/categories.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/categories.json" afterDir="false" />
+    <list default="true" id="1408da88-cad1-475c-a8d3-4754d6a85f24" name="Changes" comment="Reformatted  and restructured the code">
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CategoryBaseStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CategoryStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CategoryBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CategoryBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/src/main/resources",
+    "last_opened_file_path": "/Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/allure-results",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -63,11 +67,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/testng.xml">
+  <component name="RunManager" selected="TestNG.CategoryTest">
     <configuration name="CategoryTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjectNZ" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CategoryTest" />
+      <option name="MAIN_CLASS_NAME" value="test.CategoryTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -78,7 +82,7 @@
     <configuration name="CategoryTest.CategoryDetailsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestProjectNZ" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CategoryTest" />
+      <option name="MAIN_CLASS_NAME" value="test.CategoryTest" />
       <option name="METHOD_NAME" value="CategoryDetailsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -150,9 +154,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/testng.xml" />
         <item itemvalue="TestNG.CategoryTest" />
         <item itemvalue="TestNG.CategoryTest.CategoryDetailsTest" />
+        <item itemvalue="TestNG./Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/testng.xml" />
         <item itemvalue="TestNG.TestChk1.test3" />
         <item itemvalue="TestNG.Run As TestNG" />
       </list>
@@ -181,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678275261435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Allure Reporting">
+      <created>1678347564477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678347564477</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,7 +222,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added Allure Reporting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Allure Reporting" />
+    <MESSAGE value="Reformatted  and restructured the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatted  and restructured the code" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="steps.CategoryStep" memberName="response" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

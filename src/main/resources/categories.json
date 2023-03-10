@@ -20,9 +20,5 @@
   {
     "name": "Test defects",
     "matchedStatuses": ["broken"]
-  },
-  {
-    "name": "Success Tests",
-    "matchedStatuses": ["passed"]
   }
 ]
