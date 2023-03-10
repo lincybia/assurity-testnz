@@ -2,7 +2,7 @@
 
 This Project is a RestAssured API Testing Framework which used RestAssured libraries to execute the API calls, TestNG Library to execute the tests, Hamcrest Matchers for the test assertions and allure reports for reporting the test status and Maven is used for build management.
 
-Project Structure:
+## Project Structure:
 
 Rest Assured + Java + TestNG + Hamcrest Matchers +  Allure + Maven 
 
@@ -41,4 +41,10 @@ Packages - src/test/java has the below
         1. For the status
         2. For the acceptance criteria that verifies the Name, CanRelist and promotion details
 2. Utils folder has RestUtils class which has utility method to create Request Specification
-3. Test Folder has Test class  which has the data provider method which passes the path param and query param to the get api call and also passes the expected values as per the acceptance criteria.
+3. Test Folder has Test class  which has the data provider method which passes the path param and query param to the get api call and also passes the expected values as per the acceptance criteria. Test class contains the test method with @Test testng annotation 
+
+The test method can be independantly executed by
+1. Running the test class or test method
+2. By Exeution via the testng.xml file
+3. By running the command mvn clean test or mvn test
+
