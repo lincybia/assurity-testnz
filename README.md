@@ -17,7 +17,7 @@ Rest Assured + Java + TestNG + Hamcrest Matchers +  Allure + Maven
 1. Launch the IntelliJ IDEA 2022.3.3 RC (Community Edition) and ensure GIT is integrated
 2. Ensure Maven is installed -> brew install maven in your terminal
 3. Commands to be executed in the terminal section(intellij)
-    1. Git clone
+    1. Git clone https://github.com/lincybia/assurity-testnz.git
     2. Mvn clean
     3. Mvn install
 4. Ensure the dependencies are resolved and no errors exist in the project
