@@ -8,16 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1408da88-cad1-475c-a8d3-4754d6a85f24" name="Changes" comment="Reformatted  and restructured the code">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CategoryBaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CategoryStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/11d44285-37ee-4290-8c3e-882946868476-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1e97f32f-5a30-4fe8-8445-559778b886e0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/356c7951-0175-4270-8e2b-2a8ea7ecbe2d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3abc3a73-223f-4c58-a80e-260049625ad8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3e71d907-7049-4737-83ef-1b88418d038f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/63292527-7d45-4c14-a6ce-283bddd4cd0e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/920d8612-0213-4728-8fa6-19499646c256-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9498b593-ea23-433c-8352-b08fb4b12e3f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c34c23c1-ba5a-4a34-8ebc-a002e256cea6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d14ddc32-5bd3-44c4-8e5a-a1e429d7e68a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dd1e00f3-3031-443c-8ea9-0a3da59f7d07-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f7ea106d-9e46-4cf5-8114-911a4f3d0abd-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CategoryBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CategoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/allure-results",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lincyrosaline/Documents/TestProjectsLin/TestProjectNZ/allure-results&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/allure-results" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -192,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678347564477</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reformatted  and restructured the code">
+      <created>1678475117463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678475117463</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
